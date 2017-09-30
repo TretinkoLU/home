@@ -2,8 +2,8 @@ import math
 
 def smfnct(f, s, t):
  dis = s**2 - 4 * f * t
- if dis == 0:
-  op = -s / (2 * f)
+ if dis =0:
+  op = -s /=  (2 * f)
   return "x = %.2f" % op
  elif dis > 0:
   xF = (-s + math.sqrt(dis)) / (2 * f)
